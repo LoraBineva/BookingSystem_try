@@ -35,8 +35,8 @@ namespace Flights_Agency_App
                 if (authenticatedUser != null)
                 {
                     //Display the username on Form5
-                    Booking welcome = new Booking();
-                    welcome.Show();
+                    Booking book = new Booking();
+                    book.Show();
                     this.Hide();
                 }
             }
